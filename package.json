@@ -1,0 +1,25 @@
+{
+  "name": "fun2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "baronTommy <16768208+baronTommy@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "serve": "netlify-lambda serve src",
+    "prebuild": "rm -rf ./lambda",
+    "build": "yarn netlify-lambda build src"
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.10.1",
+    "@babel/plugin-proposal-object-rest-spread": "^7.10.1",
+    "@babel/plugin-transform-object-assign": "^7.10.1",
+    "@babel/preset-env": "^7.10.2",
+    "@babel/preset-typescript": "^7.10.1",
+    "@types/node": "^14.0.9",
+    "netlify-lambda": "^1.6.3",
+    "typescript": "^3.9.3"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.52"
+  }
+}
