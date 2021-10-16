@@ -3,7 +3,7 @@
 const angularStyle = {
     feat: {
       description: "A new feature",
-      emoji: "📝",
+      emoji: "✨",
       value: "feat",
     },
 
@@ -56,7 +56,7 @@ const angularStyle = {
 
   module.exports = {
     disableEmoji: false,
-    format: `{emoji}{type}{scope}: {subject}`,
+    format: '{emoji}{type}{scope}: {subject}',
     list: Object.keys(angularStyle),
     maxMessageLength: 64,
     minMessageLength: 3,
