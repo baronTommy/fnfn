@@ -6,17 +6,23 @@ module.exports = {
       {
         releaseRules: [
           // major
-          { type: ":sparkles:", release: "major" },
-          
+          { type: "feat", release: "major" },
+
           // minor
-          { type: ":ambulance::", release: "minor" },
+          { type: "customValue1", release: "minor" },
 
           // patch
-          { type: ":lipstick:", release: "patch" },
+          { type: "perf", release: "patch" },
+          { type: "fix", release: "patch" },
+          { type: "refactor", release: "patch" },
+
+
+          // { type: "build", "release": false },
+          // { type: "ci", "release": false },
+          // { type: "docs", "release": false },
+          // { type: "test", "release": false },
         ],
       },
     ],
   ],
 };
-
-
