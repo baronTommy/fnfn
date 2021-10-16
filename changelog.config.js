@@ -56,7 +56,7 @@ const angularStyle = {
 
   module.exports = {
     disableEmoji: false,
-    format: `{type}{scope}: {emoji}{subject}`,
+    format: `{emoji} {type}{scope}: {subject}`,
     list: Object.keys(angularStyle),
     maxMessageLength: 64,
     minMessageLength: 3,
