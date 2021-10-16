@@ -1,4 +1,5 @@
 module.exports = {
+  branches: ["master"],
   plugins: [
     [
       "@semantic-release/commit-analyzer",
@@ -20,9 +21,8 @@ module.exports = {
       },
     ],
     ["@semantic-release/release-notes-generator",{
-      "preset": "angular",
+      "preset": "conventionalcommits",
     }],
     "@semantic-release/github",
   ],
-  branches: ["master"],
 };
