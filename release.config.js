@@ -5,15 +5,14 @@ module.exports = {
       "@semantic-release/commit-analyzer",
       {
         releaseRules: [
-          { type: ":feat:", release: "major" },
-          { type: ":perf:", release: "minor" },
-          { type: ":fix:", release: "patch" },
-          { type: ":refactor:", release: "patch" },
+          // major
+          { type: ":sparkles:", release: "major" },
           
-          // { type: "build", "release": false },
-          // { type: "ci", "release": false },
-          // { type: "docs", "release": false },
-          // { type: "test", "release": false },
+          // minor
+          { type: ":ambulance::", release: "minor" },
+
+          // patch
+          { type: ":lipstick:", release: "patch" },
         ],
       },
     ],
