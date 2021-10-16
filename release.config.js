@@ -20,65 +20,19 @@ module.exports = {
         ],
       },
     ],
-    [
-      "@semantic-release/release-notes-generator",
-      {
-        // preset: "conventionalcommits",
-        // presetConfig: {
-        //   types: [
-        //     { type: "customValue1", section: "Bug Fixes", hidden: false },
-        //     { type: "fix", section: "Bug Fixes", hidden: false },
-        //   ],
-        // },
-
-        "writerOpts": {
-          "types": [
-            {
-              "type": "feat",
-              "section": ":sparkles: Novidades",
-              "hidden": false
-            },
-            {
-              "type": "fix",
-              "section": ":bug: Correções",
-              "hidden": false
-            },
-            {
-              "type": "docs",
-              "section": ":memo: Documentação",
-              "hidden": false
-            },
-            {
-              "type": "style",
-              "section": ":barber: Estilização",
-              "hidden": false
-            },
-            {
-              "type": "refactor",
-              "section": ":zap: Refatoração",
-              "hidden": false
-            },
-            {
-              "type": "perf",
-              "section": ":fast_forward: Refatoração",
-              "hidden": false
-            },
-            {
-              "type": "test",
-              "section": ":white_check_mark: Testes",
-              "hidden": false
-            },
-            {
-              "type": "chore",
-              "hidden": true
-            }
-          ]
-        }
-      },
-
-      
-    ],
-    "@semantic-release/github",
+    // [
+    //   "@semantic-release/release-notes-generator",
+    //   {
+    //     // preset: "conventionalcommits",
+    //     // presetConfig: {
+    //     //   types: [
+    //     //     { type: "customValue1", section: "Bug Fixes", hidden: false },
+    //     //     { type: "fix", section: "Bug Fixes", hidden: false },
+    //     //   ],
+    //     // },
+    //   },
+    // ],
+    // "@semantic-release/github",
   ],
 };
 
