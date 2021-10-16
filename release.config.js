@@ -10,6 +10,12 @@ module.exports = {
           headerCorrespondence: ['type', 'scope', 'subject', 'ticket'],
           noteKeywords: ["BREAKING CHANGE", "BREAKING CHANGES"]
         },
+        "releaseRules": [
+          {
+            "breaking": true,
+            "release": "major",
+          },
+        ]
       }
     ],
   ],
