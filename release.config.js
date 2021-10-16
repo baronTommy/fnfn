@@ -4,7 +4,7 @@ module.exports = {
     [
       "@semantic-release/commit-analyzer",
       {
-        // :sparkles: feat(changelog): support chinese title
+        // https://github.com/arvinxx/gitmoji-commit-workflow
         parserOpts: {
           headerPattern:
             /^(?::\w*:|(?:\ud83c[\udf00-\udfff])|(?:\ud83d[\udc00-\ude4f\ude80-\udeff])|[\u2600-\u2B55])\s(?<type>\w*)(?:\((?<scope>.*)\))?!?:\s(?<subject>(?:(?!#).)*(?:(?!\s).))\s?(?<ticket>#\d*)?$/,
@@ -16,8 +16,12 @@ module.exports = {
             breaking: true,
             release: "major",
           },
+          {
+            release: "patch",
+          },
         ],
       },
     ],
   ],
 };
+        // :sparkles: feat(changelog): support chinese title
