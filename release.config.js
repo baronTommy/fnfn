@@ -20,12 +20,9 @@ module.exports = {
       },
     ],
     [
-      "@semantic-release/release-notes-generator",
-      {
-        writerOpts: {
-          commitsSort: ["subject", "scope"],
-        },
-      },
+      "@semantic-release/release-notes-generator", {
+        "preset": "angular", 
+      }
     ],
     "@semantic-release/github",
   ],
