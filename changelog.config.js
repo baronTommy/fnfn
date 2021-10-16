@@ -45,17 +45,19 @@ const angularStyle = {
       value: "refactor",
     },
   
-    // test: {
-    //   description: "A code change that neither fixes a bug nor adds a feature",
-    //   emoji: "✅",
-    //   value: "test",
-    // },
-
-    xxx: {
+    test: {
       description: "A code change that neither fixes a bug nor adds a feature",
       emoji: "✅",
-      value: "xxx",
+      value: "test",
     },
+
+    // ---
+    customValue1: {
+      description: "customValue1 & customValue1",
+      emoji: "🎉",
+      value: "customValue1",
+    },
+    // ---
   };
 
   module.exports = {

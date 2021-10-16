@@ -11,8 +11,11 @@ module.exports = {
           { type: "fix", release: "patch" },
           { type: "perf", release: "patch" },
           { type: "refactor", release: "patch" },
-          // { type: "test", release: "patch" },
-          { type: "xxx", release: "patch" },
+          { type: "test", release: "patch" },
+          
+          // ----
+          { type: "customValue1", release: "minor" },
+          // ----
 
         ],
       },
