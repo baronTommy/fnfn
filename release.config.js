@@ -23,7 +23,7 @@ module.exports = {
     [
       "@semantic-release/release-notes-generator",
       {
-        preset: "conventionalcommits",
+        // preset: "conventionalcommits",
         presetConfig: {
           types: [
             { type: "customValue1", section: "CustomValue1" },
