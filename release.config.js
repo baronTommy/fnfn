@@ -26,8 +26,8 @@ module.exports = {
         // preset: "conventionalcommits",
         presetConfig: {
           types: [
-            { type: "customValue1", section: "CustomValue1" },
-            { type: "fix", section: "Bug Fixes" },
+            { type: "customValue1", section: "CustomValue1", hidden: false },
+            { type: "fix", section: "Bug Fixes", hidden: false },
           ],
         },
       },
