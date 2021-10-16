@@ -1,3 +1,4 @@
+
 module.exports = {
   branches: ["master"],
   plugins: [
@@ -20,9 +21,21 @@ module.exports = {
         ],
       },
     ],
-    ["@semantic-release/release-notes-generator",{
-      "preset": "conventionalcommits",
-    }],
+    [
+      "@semantic-release/release-notes-generator",
+      {
+        // preset: "conventionalcommits",
+        presetConfig: {
+          types: [
+            {
+              type: "fix",
+              section: ":bug: bug bugbug...",
+              hidden: false,
+            },
+          ],
+        },
+      },
+    ],
     "@semantic-release/github",
   ],
 };
