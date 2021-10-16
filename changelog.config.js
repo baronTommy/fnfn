@@ -1,4 +1,4 @@
-const emoji = require('node-emoji')
+// https://github.com/streamich/git-cz
 
 const angularStyle = {
     build: {
@@ -54,23 +54,18 @@ const angularStyle = {
 
   module.exports = {
     disableEmoji: false,
-    // format: `{type}{scope}: {emoji}{subject}`,
-    format: `{type}{scope}: ${'{emoji}'}{subject}`,
+    format: `{type}{scope}: {emoji}{subject}`,
     list: Object.keys(angularStyle),
     maxMessageLength: 64,
     minMessageLength: 3,
     questions: [
       "type",
-      "scope",
+      // "scope",
       "subject",
       "body",
       "breaking",
       "issues",
-      "lerna",
     ],
     scopes: [],
     types: angularStyle,
   };
-
-  
-//   emoji.get()
