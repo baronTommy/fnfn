@@ -4,7 +4,7 @@ const angularStyle = {
     build: {
       description:
         "Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)",
-      emoji: "🤖",
+      emoji: "👷",
       value: "build",
     },
   
@@ -17,37 +17,37 @@ const angularStyle = {
   
     docs: {
       description: "Documentation only changes",
-      emoji: "🤖",
+      emoji: "📝",
       value: "docs",
     },
   
     feat: {
       description: "A new feature",
-      emoji: "🤖",
+      emoji: "📝",
       value: "feat",
     },
   
     fix: {
       description: "A bug fix",
-      emoji: "🤖",
+      emoji: "🐛",
       value: "fix",
     },
   
     perf: {
       description: "A code change that improves performance",
-      emoji: "🤖",
+      emoji: "⚡️",
       value: "perf",
     },
   
     refactor: {
       description: "A code change that neither fixes a bug nor adds a feature",
-      emoji: "🤖",
+      emoji: "♻️",
       value: "refactor",
     },
   
     test: {
       description: "A code change that neither fixes a bug nor adds a feature",
-      emoji: "🤖",
+      emoji: "✅",
       value: "Adding missing tests or correcting existing tests",
     },
   };
