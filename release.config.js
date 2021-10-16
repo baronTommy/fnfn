@@ -16,6 +16,7 @@ module.exports = {
             breaking: true,
             release: "major",
           },
+          { type: "feat", release: "minor" },
           {
             release: "patch",
           },
@@ -24,4 +25,3 @@ module.exports = {
     ],
   ],
 };
-        // :sparkles: feat(changelog): support chinese title
