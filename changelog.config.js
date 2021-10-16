@@ -1,5 +1,5 @@
 module.exports = {
-    disableEmoji: false,
+    disableEmoji: true,
     format: '{type}{scope}: {emoji}{subject}',
     list: ['test', 'feat', 'fix', 'chore', 'docs', 'refactor', 'style', 'ci', 'perf'],
     maxMessageLength: 64,
@@ -19,7 +19,7 @@ module.exports = {
       },
       docs: {
         description: 'Documentation only changes',
-        emoji: '✏️',
+        emoji: ':memo:',
         value: 'docs'
       },
       feat: {
@@ -59,4 +59,12 @@ module.exports = {
       }
     }
   };
-  
+
+// build: Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)
+// ci: Changes to our CI configuration files and scripts (example scopes: Circle, BrowserStack, SauceLabs)
+// docs: Documentation only changes
+// feat: A new feature
+// fix: A bug fix
+// perf: A code change that improves performance
+// refactor: A code change that neither fixes a bug nor adds a feature
+// test: Adding missing tests or correcting existing tests
