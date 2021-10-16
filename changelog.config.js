@@ -65,7 +65,7 @@ const angularStyle = {
       // "scope",
       "subject",
       "body",
-      // "breaking",
+      "breaking",
       "issues",
     ],
     scopes: [],
