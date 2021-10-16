@@ -11,9 +11,13 @@ module.exports = {
         },
 
         "releaseRules": [
+          // {
+          //   "breaking": true,
+          //   "release": "major",
+          // },
           {
-            "breaking": true,
-            "release": "major",
+            "type": "art",
+            "release": 'major',
           },
         ]
 
