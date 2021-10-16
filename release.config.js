@@ -20,13 +20,7 @@ module.exports = {
         ],
       },
     ],
-    // "@semantic-release/release-notes-generator",
-    [
-      '@semantic-release/release-notes-generator',
-      {
-        config: 'conventional-changelog-gitmoji-config',
-      },
-    ],
-    "@semantic-release/github",
+    // '@semantic-release/release-notes-generator',
+    // "@semantic-release/github",
   ],
 };
