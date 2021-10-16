@@ -7,7 +7,8 @@
   "scripts": {
     "serve": "netlify-lambda serve src",
     "prebuild": "rm -rf ./lambda",
-    "build": "yarn netlify-lambda build src"
+    "build": "yarn netlify-lambda build src",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@babel/plugin-proposal-class-properties": "^7.10.1",
@@ -22,6 +23,7 @@
     "typescript": "^3.9.3"
   },
   "devDependencies": {
-    "@types/aws-lambda": "^8.10.52"
+    "@types/aws-lambda": "^8.10.52",
+    "husky": "^7.0.2"
   }
 }
