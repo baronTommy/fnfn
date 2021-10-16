@@ -19,7 +19,9 @@ module.exports = {
         ],
       },
     ],
-    "@semantic-release/release-notes-generator",
+    ["@semantic-release/release-notes-generator",{
+      "preset": "angular",
+    }],
     "@semantic-release/github",
   ],
   branches: ["master"],
