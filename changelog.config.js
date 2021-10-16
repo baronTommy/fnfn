@@ -4,7 +4,7 @@ const angularStyle = {
     build: {
       description:
         "Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)",
-      emoji: emoji.get(":art:"),
+      emoji: "🤖",
       value: "build",
     },
   
@@ -54,7 +54,8 @@ const angularStyle = {
 
   module.exports = {
     disableEmoji: false,
-    format: `{type}{scope}: {emoji}{subject}`,
+    // format: `{type}{scope}: {emoji}{subject}`,
+    format: `{type}{scope}: ${'{emoji}'}{subject}`,
     list: Object.keys(angularStyle),
     maxMessageLength: 64,
     minMessageLength: 3,
@@ -70,3 +71,6 @@ const angularStyle = {
     scopes: [],
     types: angularStyle,
   };
+
+  
+//   emoji.get()
