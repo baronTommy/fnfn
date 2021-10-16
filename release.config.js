@@ -12,15 +12,21 @@ module.exports = {
           { type: "perf", release: "patch" },
           { type: "refactor", release: "patch" },
           { type: "test", release: "patch" },
-          
+
           // ----
           { type: "customValue1", release: "minor" },
           // ----
-
         ],
       },
     ],
-    "@semantic-release/release-notes-generator",
+    [
+      "@semantic-release/release-notes-generator",
+      {
+        writerOpts: {
+          commitsSort: ["subject", "scope"],
+        },
+      },
+    ],
     "@semantic-release/github",
   ],
   branches: ["master"],
