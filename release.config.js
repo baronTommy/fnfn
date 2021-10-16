@@ -24,13 +24,11 @@ module.exports = {
     [
       "@semantic-release/release-notes-generator",
       {
-        // preset: "conventionalcommits",
+        preset: "conventionalcommits",
         presetConfig: {
           types: [
             {
               type: "fix",
-              section: ":bug: bug bugbug...",
-              hidden: false,
             },
           ],
         },
