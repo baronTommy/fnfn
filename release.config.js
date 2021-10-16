@@ -23,13 +23,17 @@ module.exports = {
     [
       "@semantic-release/release-notes-generator",
       {
-        preset: "conventionalcommits",
-        presetConfig: {
-          types: [
-            { type: "customValue1", section: "CustomValue1", hidden: false },
-            { type: "fix", section: "Bug Fixes", hidden: false },
-          ],
-        },
+        // preset: "conventionalcommits",
+        // presetConfig: {
+        //   types: [
+        //     { type: "customValue1", section: "CustomValue1", hidden: false },
+        //     { type: "fix", section: "Bug Fixes", hidden: false },
+        //   ],
+        // },
+
+        "writerOpts": {
+          "commitsSort": ["subject", "scope"]
+        }
       },
     ],
     "@semantic-release/github",
