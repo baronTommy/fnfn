@@ -19,6 +19,10 @@ module.exports = {
             "type": "art",
             "release": 'major',
           },
+          {
+            "type": ":art:",
+            "release": 'patch',
+          },
         ]
 
         // releaseRules: [
