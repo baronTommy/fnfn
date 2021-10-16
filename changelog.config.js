@@ -45,10 +45,16 @@ const angularStyle = {
       value: "refactor",
     },
   
-    test: {
+    // test: {
+    //   description: "A code change that neither fixes a bug nor adds a feature",
+    //   emoji: "✅",
+    //   value: "test",
+    // },
+
+    xxx: {
       description: "A code change that neither fixes a bug nor adds a feature",
       emoji: "✅",
-      value: "Adding missing tests or correcting existing tests",
+      value: "xxx",
     },
   };
 
