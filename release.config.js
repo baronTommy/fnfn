@@ -20,24 +20,21 @@ module.exports = {
         ],
       },
     ],
-    [
-      "@semantic-release/release-notes-generator",
-      {
-        preset: "conventionalcommits",
-        parserOpts: {
-          types: [
-            { type: "customValue1", section: "Bug Fixes", hidden: false },
-            { type: "fix", section: "Bug Fixes", hidden: false },
-          ],
-        },
-        // presetConfig: {
-        //   types: [
-        //     { type: "customValue1", section: "Bug Fixes", hidden: false },
-        //     { type: "fix", section: "Bug Fixes", hidden: false },
-        //   ],
-        // },
-      },
-    ],
-    "@semantic-release/github",
+    // [
+    //   "@semantic-release/release-notes-generator",
+    //   {
+    //     config: {
+
+    //     }
+    //     // preset: "conventionalcommits",
+    //     // parserOpts: {
+    //     //   types: [
+    //     //     { type: "customValue1", section: "Bug Fixes", hidden: false },
+    //     //     { type: "fix", section: "Bug Fixes", hidden: false },
+    //     //   ],
+    //     // },
+    //   },
+    // ],
+    // "@semantic-release/github",
   ],
 };

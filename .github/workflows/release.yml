@@ -19,3 +19,5 @@ jobs:
         run: yarn semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # リリースノート
+          GIT_PR_RELEASE_TEMPLATE: .git-pr-release-template
