@@ -6,7 +6,6 @@ const angularStyle = {
       emoji: "✨",
       value: "feat",
     },
-
     build: {
       description:
         "Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)",
@@ -44,14 +43,6 @@ const angularStyle = {
       emoji: "✅",
       value: "test",
     },
-
-    // ---
-    customValue1: {
-      description: "customValue1 & customValue1",
-      emoji: "🎉",
-      value: "customValue1",
-    },
-    // ---
   };
 
   module.exports = {
