@@ -18,7 +18,7 @@ const questionDictionary = [
   {
     name: "type",
     type: "search-list",
-    message: "Atypeを選択してください。",
+    message: "Btypeを選択してください。",
     choices: [
       { name: "Fix: for a bug fix.", value: "Fix" },
       {

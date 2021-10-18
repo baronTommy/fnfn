@@ -1232,10 +1232,10 @@
   dependencies:
     defer-to-connect "^1.0.1"
 
-"@tommy_baron/git-test-@^0.1.1":
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@tommy_baron/git-test-/-/git-test--0.1.1.tgz#740f611ffc042c492c520b22641bd65807d9e0da"
-  integrity sha512-I6lP1d9u5w4RK0qpqkJiwQVyTxh0PuCyUc67akc78WIQvxiRG+2fJX740Rch0JoResYH1kghgd+e/QW8vO+UiQ==
+"@tommy_baron/git-test-@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@tommy_baron/git-test-/-/git-test--0.2.0.tgz#3774d6cd1c9bf72c4d902979226dcdeb68d35d94"
+  integrity sha512-3Xicua86qHFl4WGJA9qf31Fm7Ki0RWGuyqk9tyhZCuPABIc1Xxnk9EjAk6PfC6wZ+4PMclckoEF9Ace2HUcqZw==
   dependencies:
     cosmiconfig "7.0.1"
     inquirer "8.2.0"
