@@ -1,10 +1,4 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-exec < /dev/tty
-npx interactive-commit-message --hook $1
-
-# #!/bin/sh
-# . "$(dirname "$0")/_/husky.sh"
-
-# exec < /dev/tty && yarn git-cz --hook || true
+exec < /dev/tty npx @tommy_baron/git-test- --hook $1
