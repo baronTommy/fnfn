@@ -1232,10 +1232,10 @@
   dependencies:
     defer-to-connect "^1.0.1"
 
-"@tommy_baron/git-test-@^0.3.0":
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/@tommy_baron/git-test-/-/git-test--0.3.0.tgz#fa1845b217181786e0b99c7e3305ba88e6ddabf9"
-  integrity sha512-/ak8opL25jj9AfAbj6rtiY2hrcDuwcuBkAc2zr+dXhyVNqhZAI2WwarPIx4EN3D8utj+IJcNMo2hrXCgFqcjig==
+"@tommy_baron/git-test-@0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@tommy_baron/git-test-/-/git-test--0.5.0.tgz#6121a0329c6e3eed60cdb180a0e8a0323d2e08c5"
+  integrity sha512-UZ69GvC5oq10sk+CfBIiFp3JgxQqxnr/V1kCNuw8R5HIIQz2NQfwNEodO0KfTnreFpK+pR7xGXFob1vl4anwDg==
   dependencies:
     "@types/chalk" "2.2.0"
     chalk "4.1.2"

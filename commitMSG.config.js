@@ -1,3 +1,5 @@
+const {plugin} = require('@tommy_baron/git-test-')
+
 // https://github.com/davidtheclark/cosmiconfig
 
 /**
@@ -591,10 +593,7 @@
      name: "gitmoji",
      type: "search-list",
      message: "gitmojiを選択してください。",
-     choices: gitmojis.map((v) => ({
-       name: `${v.emoji} ${v.description}`,
-       value: v.code,
-     })),
+     choices: plugin.gitmoji.makeChoices({gitmojis: plugin.gitmoji.gitmojis}),
    },
    {
      name: "description",
@@ -618,8 +617,19 @@
    },
  ];
  
- module.exports = {
-   template,
-   questionDictionary,
- };
- 
+ const config = {
+  /**
+   * https://github.com/chalk/chalk#colors
+   */
+  color: "green",
+  /**
+   * Format the template after answering.
+   */
+  createTpl: (p) => p.template.replace(/\r?\n{2,}/g, "").trim(),
+};
+
+module.exports = {
+  template,
+  questionDictionary,
+  config,
+};
