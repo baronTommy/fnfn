@@ -1,4 +1,4 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-exec < /dev/tty npx @tommy_baron/git-test- --hook $1
+# exec < /dev/tty npx @tommy_baron/git-test- --hook $1
