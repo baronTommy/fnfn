@@ -18,9 +18,8 @@ module.exports = {
           // },
           { type: "Breaking", release: "major" },
 
-          
           { type: "New", release: "minor" },
-          
+
           { type: "Fix", release: "patch" },
           { type: "Update", release: "patch" },
           // {
@@ -29,8 +28,21 @@ module.exports = {
         ],
       },
     ],
-    "@semantic-release/release-notes-generator",
-    "@semantic-release/github"
+    [
+      "@semantic-release/release-notes-generator",
+      {
+        preset: "conventionalcommits",
+        presetConfig: {
+          types: [
+            {
+              type: "New",
+              section: ":sparkles: Novidades",
+              hidden: false,
+            },
+          ],
+        },
+      },
+    ],
+    "@semantic-release/github",
   ],
 };
-
