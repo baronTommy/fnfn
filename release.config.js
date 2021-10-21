@@ -39,6 +39,12 @@ module.exports = {
               section: ":sparkles: Novidades",
               hidden: false,
             },
+            {
+              "type": "Fix",
+              "section": ":bug: Correções",
+              "hidden": false
+            },
+
           ],
         },
       },
@@ -46,6 +52,7 @@ module.exports = {
     "@semantic-release/github",
   ],
 };
+
 
 
 
