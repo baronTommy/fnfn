@@ -29,8 +29,8 @@ module.exports = {
     [
       "@semantic-release/release-notes-generator",
       {
-        preset: "angular",
-        presetConfig: {
+        preset: "conventionalcommits",
+        preset: {
           types: [
             {
               type: "Update",
