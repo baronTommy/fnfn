@@ -37,6 +37,11 @@ module.exports = {
         presetConfig: {
           types: [
             {
+              type: "Update",
+              section: ":sparkles: Novidades",
+              hidden: false,
+            },
+            {
               type: "New",
               section: ":sparkles: Novidades",
               hidden: false,
@@ -56,3 +61,4 @@ module.exports = {
 
 // https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-commits-parser#conventionalcommitsparseroptions
 // https://github.com/semantic-release/release-notes-generator/issues/153#issuecomment-555152563
+// https://github.com/semantic-release/release-notes-generator/issues/165
