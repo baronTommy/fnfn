@@ -3,6 +3,7 @@ module.exports = {
   plugins: [
     [
       "@semantic-release/commit-analyzer",
+      
       {
         // https://github.com/arvinxx/gitmoji-commit-workflow
         // parserOpts: {
@@ -11,15 +12,16 @@ module.exports = {
         //   headerCorrespondence: ["type", "scope", "subject", "ticket"],
         //   noteKeywords: ["BREAKING CHANGE", "BREAKING CHANGES"],
         // },
+
+
+        "preset": "conventionalcommits",
         releaseRules: [
           // {
           //   breaking: true,
           //   release: "major",
           // },
           { type: "Breaking", release: "major" },
-
           { type: "New", release: "minor" },
-
           { type: "Fix", release: "patch" },
           { type: "Update", release: "patch" },
           // {
@@ -31,42 +33,26 @@ module.exports = {
     [
       "@semantic-release/release-notes-generator",
       {
-        "writerOpts": {
-          "types": [
+        preset: "conventionalcommits",
+        presetConfig: {
+          types: [
             {
-              "type": "Update",
-              "section": ":sparkles: Novidades",
-              "hidden": false
+              type: "New",
+              section: ":sparkles: Novidades",
+              hidden: false,
             },
-          ]
-        }
-      }
+            {
+              type: "Fix",
+              section: ":bug: Correções",
+              hidden: false,
+            },
+          ],
+        },
+      },
     ],
-    // [
-    //   "@semantic-release/release-notes-generator",
-    //   {
-    //     "preset": "conventionalcommits",
-    //     presetConfig: {
-    //       types: [
-    //         {
-    //           type: "New",
-    //           section: ":sparkles: Novidades",
-    //           hidden: false,
-    //         },
-    //         {
-    //           "type": "Fix",
-    //           "section": ":bug: Correções",
-    //           "hidden": false
-    //         },
-
-    //       ],
-    //     },
-    //   },
-    // ],
     "@semantic-release/github",
   ],
 };
 
-
-
-
+// https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-commits-parser#conventionalcommitsparseroptions
+// https://github.com/semantic-release/release-notes-generator/issues/153#issuecomment-555152563
