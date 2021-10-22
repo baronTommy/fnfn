@@ -31,24 +31,38 @@ module.exports = {
     [
       "@semantic-release/release-notes-generator",
       {
-        "preset": "conventionalcommits",
-        presetConfig: {
-          types: [
+        "writerOpts": {
+          "types": [
             {
-              type: "New",
-              section: ":sparkles: Novidades",
-              hidden: false,
-            },
-            {
-              "type": "Fix",
-              "section": ":bug: Correções",
+              "type": "Update",
+              "section": ":sparkles: Novidades",
               "hidden": false
             },
-
-          ],
-        },
-      },
+          ]
+        }
+      }
     ],
+    // [
+    //   "@semantic-release/release-notes-generator",
+    //   {
+    //     "preset": "conventionalcommits",
+    //     presetConfig: {
+    //       types: [
+    //         {
+    //           type: "New",
+    //           section: ":sparkles: Novidades",
+    //           hidden: false,
+    //         },
+    //         {
+    //           "type": "Fix",
+    //           "section": ":bug: Correções",
+    //           "hidden": false
+    //         },
+
+    //       ],
+    //     },
+    //   },
+    // ],
     "@semantic-release/github",
   ],
 };
