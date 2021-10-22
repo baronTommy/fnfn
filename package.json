@@ -30,6 +30,7 @@
     "netlify-lambda": "^1.6.3",
     "node-emoji": "^1.11.0",
     "semantic-release": "^18.0.0",
+    "standard-version": "^9.3.2",
     "typescript": "^3.9.3"
   },
   "devDependencies": {
