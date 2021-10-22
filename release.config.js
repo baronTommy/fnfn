@@ -29,7 +29,7 @@ module.exports = {
     [
       "@semantic-release/release-notes-generator",
       {
-        preset: "conventional-changelog-conventionalcommits",
+        preset: "conventional-changelog",
         presetConfig: {
           types: [
             {
