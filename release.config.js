@@ -4,6 +4,7 @@ module.exports = {
     [
       "@semantic-release/commit-analyzer",
       {
+        preset: "conventionalcommits",
         // https://github.com/arvinxx/gitmoji-commit-workflow
         // parserOpts: {
         //   headerPattern:
@@ -30,7 +31,7 @@ module.exports = {
       "@semantic-release/release-notes-generator",
       {
         preset: "conventionalcommits",
-        preset: {
+        presetConfig: {
           types: [
             {
               type: "Update",
