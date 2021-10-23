@@ -16,8 +16,10 @@ module.exports = {
         preset: "conventionalcommits",
         "presetConfig": {
           "types": [
+            // https://stackoverflow.com/questions/59066245/semantic-release-add-more-sections-to-auto-generated-release-notes
             {"type": "Foo", "section": "Improvement", "hidden": false}
           ]
+        }
       },
     ],
     "@semantic-release/github",
