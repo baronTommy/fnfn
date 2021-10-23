@@ -19,10 +19,10 @@ module.exports = {
           //   release: "major",
           // },
           { type: "Breaking", release: "major" },
-          { type: "New", release: "minor" },
+          // { type: "New", release: "minor" },
+          { type: "new", release: "minor" },
           { type: "Fix", release: "patch" },
           { type: "Update", release: "patch" },
-          { type: "Foo", release: "patch" },
           // {
           //   release: "patch",
           // },
