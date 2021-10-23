@@ -29,7 +29,8 @@ module.exports = {
             { type: "ci", section: "Continuous Integration", hidden: false },
             // https://stackoverflow.com/questions/59066245/semantic-release-add-more-sections-to-auto-generated-release-notes
             { type: "hoge", section: "Improvement", hidden: false },
-            { type: "*", section: "---", hidden: false },
+            
+            { type: "", section: "---", hidden: false },
           ],
         },
       },
