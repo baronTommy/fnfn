@@ -6,7 +6,6 @@ module.exports = {
       {
         preset: "conventionalcommits",
         releaseRules: [
-          // https://stackoverflow.com/questions/59066245/semantic-release-add-more-sections-to-auto-generated-release-notes
           { type: "hoge", release: "minor" }
         ],
       },
@@ -28,6 +27,7 @@ module.exports = {
             { type: "test", section: "Tests", hidden: false },
             { type: "build", section: "Build System", hidden: false },
             { type: "ci", section: "Continuous Integration", hidden: false },
+            // https://stackoverflow.com/questions/59066245/semantic-release-add-more-sections-to-auto-generated-release-notes
             { type: "hoge", section: "Improvement", hidden: false },
           ],
         },
@@ -38,6 +38,8 @@ module.exports = {
 };
 
 
+// ノートキーワード
+// メジャー, マイナー, パッチ
 
 
 

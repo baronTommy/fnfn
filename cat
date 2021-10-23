@@ -1,0 +1,6 @@
+yarn run v1.22.15
+$ /Volumes/workspace/baronTommy/fnfn/node_modules/.bin/conventional-commits-parser a.txt
+[
+{"type":"Foo","scope":null,"subject":"hoge","merge":null,"header":"Foo: hoge","body":"bbb\n\n111\n222\n333","footer":null,"notes":[],"references":[],"mentions":[],"revert":null}
+]
+Done in 0.16s.

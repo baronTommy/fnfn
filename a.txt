@@ -1,0 +1,4 @@
+Foo: hoge
+
+BREAKING CHANGE: hoge
+BREAKING CHANGE: baz
