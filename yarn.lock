@@ -3793,6 +3793,10 @@ conventional-changelog-jshint@^2.0.9:
     compare-func "^2.0.0"
     q "^1.5.1"
 
+conventional-changelog-monorepo@conventional-changelog/conventional-changelog:
+  version "1.0.0"
+  resolved "https://codeload.github.com/conventional-changelog/conventional-changelog/tar.gz/654d58b85c85740d2bc4eb1c81e0108e615cf2b6"
+
 conventional-changelog-preset-loader@^2.3.4:
   version "2.3.4"
   resolved "https://registry.yarnpkg.com/conventional-changelog-preset-loader/-/conventional-changelog-preset-loader-2.3.4.tgz#14a855abbffd59027fd602581f1f34d9862ea44c"
@@ -3813,7 +3817,7 @@ conventional-changelog-writer@^5.0.0:
     split "^1.0.0"
     through2 "^4.0.0"
 
-conventional-changelog@3.1.24, conventional-changelog@^3.1.24:
+conventional-changelog@3.1.24:
   version "3.1.24"
   resolved "https://registry.yarnpkg.com/conventional-changelog/-/conventional-changelog-3.1.24.tgz#ebd180b0fd1b2e1f0095c4b04fd088698348a464"
   integrity sha512-ed6k8PO00UVvhExYohroVPXcOJ/K1N0/drJHx/faTH37OIZthlecuLIRX/T6uOp682CAoVoFpu+sSEaeuH6Asg==
