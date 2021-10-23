@@ -12,7 +12,7 @@ module.exports = {
         //   noteKeywords: ["BREAKING CHANGE", "BREAKING CHANGES"],
         // },
 
-        preset: require.resolve('conventional-changelog-conventionalcommits'),
+        preset: "conventionalcommits",
         releaseRules: [
           // {
           //   breaking: true,
@@ -31,7 +31,7 @@ module.exports = {
     [
       "@semantic-release/release-notes-generator",
       {
-        preset: require.resolve('conventional-changelog-conventionalcommits'),
+        preset: "conventionalcommits",
         presetConfig: {
           types: [
             {
