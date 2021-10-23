@@ -4,7 +4,6 @@ module.exports = {
     [
       "@semantic-release/commit-analyzer",
       {
-        preset: "conventionalcommits",
         // https://github.com/arvinxx/gitmoji-commit-workflow
         // parserOpts: {
         //   headerPattern:
@@ -12,6 +11,8 @@ module.exports = {
         //   headerCorrespondence: ["type", "scope", "subject", "ticket"],
         //   noteKeywords: ["BREAKING CHANGE", "BREAKING CHANGES"],
         // },
+
+        preset: "conventionalcommits",
         releaseRules: [
           // {
           //   breaking: true,
@@ -30,7 +31,7 @@ module.exports = {
     [
       "@semantic-release/release-notes-generator",
       {
-        preset: "conventionalcommits",
+        preset: "conventionalchangelog",
         presetConfig: {
           types: [
             {
