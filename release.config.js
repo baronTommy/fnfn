@@ -13,20 +13,20 @@ module.exports = {
         // },
 
         preset: "conventionalcommits",
-        releaseRules: [
+        // releaseRules: [
           // {
           //   breaking: true,
           //   release: "major",
           // },
-          { type: "Breaking", release: "major" },
+          // { type: "Breaking", release: "major" },
           // { type: "New", release: "minor" },
-          { type: "new", release: "minor" },
-          { type: "Fix", release: "patch" },
-          { type: "Update", release: "patch" },
+          // { type: "new", release: "minor" },
+          // { type: "Fix", release: "patch" },
+          // { type: "Update", release: "patch" },
           // {
           //   release: "patch",
           // },
-        ],
+        // ],
       },
     ],
     [
