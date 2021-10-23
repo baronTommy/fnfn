@@ -22,6 +22,7 @@ module.exports = {
           { type: "New", release: "minor" },
           { type: "Fix", release: "patch" },
           { type: "Update", release: "patch" },
+          { type: "Foo", release: "patch" },
           // {
           //   release: "patch",
           // },
