@@ -13,7 +13,7 @@ module.exports = {
         // },
 
         preset: "conventionalcommits",
-        // releaseRules: [
+        releaseRules: [
           // {
           //   breaking: true,
           //   release: "major",
@@ -26,7 +26,10 @@ module.exports = {
           // {
           //   release: "patch",
           // },
-        // ],
+
+          { type: "Foo", release: "major" },
+
+        ],
       },
     ],
     [
