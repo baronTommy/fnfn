@@ -11,6 +11,7 @@ module.exports = {
           {"type": "feat", "release": false},
         ],
       },
+      
     ],
     [
       "@semantic-release/release-notes-generator",
