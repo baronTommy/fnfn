@@ -5219,7 +5219,7 @@ gitmoji-cli@^4.7.0:
     proxy-agent "^5.0.0"
     update-notifier "^5.0.0"
 
-gitmojis@3.5.0:
+gitmojis@3.5.0, gitmojis@^3.5.0:
   version "3.5.0"
   resolved "https://registry.yarnpkg.com/gitmojis/-/gitmojis-3.5.0.tgz#d266bb5d7d5d245b1f17db1d3b77fe1635c5de27"
   integrity sha512-bwpxpG808OcPZa78C0Kr0f31lYI4ELvx1xKxmPWL+/jEVbQ7Hld0axyMVWCr1xuz/Tu1h/H54V4SLw3HPDbYSA==

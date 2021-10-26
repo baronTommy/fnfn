@@ -1,4 +1,3 @@
-Foo: hoge
+fix(x)!: hoge
 
 BREAKING CHANGE: hoge
-BREAKING CHANGE: baz
