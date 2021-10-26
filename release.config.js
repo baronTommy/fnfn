@@ -6,7 +6,9 @@ module.exports = {
       "@semantic-release/commit-analyzer",
       {
         preset: "conventionalcommits",
-        releaseRules: [],
+        releaseRules: [
+          {"type": "fix", "release": false},
+        ],
       },
     ],
     [
